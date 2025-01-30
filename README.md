@@ -33,6 +33,12 @@ Access the openvas gui
 http://your-ip-address:9932
 `````````
 
+Default credentials for accessing openvas is admin admin
+Recommend to change it 
+Use the command below to change it
+````````
+docker compose -f  exec -u gvmd gvmd gvmd --user=admin --new-password='<password>'
+```````
 
 
  
