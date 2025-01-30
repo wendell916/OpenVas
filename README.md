@@ -30,7 +30,7 @@ docker compose up -d
 
 Access the openvas gui
 ````````
-http:your-ip-address:9932
+http://your-ip-address:9932
 `````````
 
 
